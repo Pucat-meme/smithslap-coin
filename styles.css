@@ -1,0 +1,196 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b, #dc143c);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+}
+
+header img {
+    max-width: 250px; /* Slightly larger size */
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 20px 0;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.sss-image {
+    width: 200px; /* Set a moderate width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.tokenomics {
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1000px; /* Adjust to fit the container */
+}
+
+.tokenomics h2 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 40px;
+}
+
+.tokenomics-grid {
+    display: flex;
+    justify-content: space-between; /* Ensure items are spaced evenly */
+    gap: 20px;
+    flex-wrap: wrap; /* Allow wrapping if needed */
+}
+
+.tokenomics-item {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    flex: 1;
+    min-width: 200px; /* Ensure items don't shrink too much */
+    max-width: 23%; /* Fit items in one line with space around */
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.icon-container {
+    background-color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px;
+}
+
+.icon-container i {
+    font-size: 30px;
+    color: #fff;
+}
+
+.tokenomics-item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.tokenomics-item p {
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.buy-now {
+    display: inline-block;
+    background-color: #ff8c00; /* Orange color */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.buy-now:hover {
+    background-color: #e07b00; /* Darker orange on hover */
+    transform: scale(1.05);
+}
+
+.moon-text {
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #ffdf00;
+}
+
+.surprise {
+    font-size: 3em;
+    margin: 40px 0;
+    animation: spin 5s infinite linear;
+}
+
+.marketing-done {
+    font-size: 2em;
+    margin: 20px 0;
+    color: #ffdf00;
+}
+
+.short-story {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.short-story h2 {
+    font-size: 2.5em;
+}
+
+.short-story p {
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 1.6;
+}
+
+footer {
+    margin: 40px 0;
+}
+
+/* X and Telegram buttons at the top right */
+.top-right-buttons {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.top-right-buttons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.top-right-buttons a:hover {
+    background: #ddd;
+}
+
+/* X icon */
+.top-right-buttons .x-icon {
+    font-size: 24px;
+    color: #000;
+}
+
+/* Telegram icon */
+.top-right-buttons .telegram-icon {
+    font-size: 24px;
+    color: #0088cc;
+}
